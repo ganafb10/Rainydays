@@ -132,7 +132,7 @@ main.menu-page {
     box-shadow: 0px 1px 8px 2px rgba(0,0,0, 0.15); 
 }
 
-main button.shop, main a.menu-link{
+main span.shop, main a.menu-link{
     font-size: 1.5rem;
     color: white;
     background: #05aa6d;
@@ -145,6 +145,10 @@ main button.shop, main a.menu-link{
     transition: all linear 0.5s;
 }
 
+main a {
+    text-decoration: none;
+}
+
 main.menu-page button, main.menu-page a.menu-link {
     display: block;
     min-width: 250px;
@@ -152,7 +156,7 @@ main.menu-page button, main.menu-page a.menu-link {
     text-align: center;
 }
 
-main button.shop:hover, main a.menu-link:hover{  
+main span.shop:hover, main a.menu-link:hover{  
     color: #05aa6d;
     background: #fff;
     
